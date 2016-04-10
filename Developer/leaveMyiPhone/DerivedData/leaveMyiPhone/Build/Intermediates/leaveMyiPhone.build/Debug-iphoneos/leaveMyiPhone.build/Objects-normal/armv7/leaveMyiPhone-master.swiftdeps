@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "f9fd750bb5d2c4779d0634ad203f0a6e"
+build_time: [513549139, 800587000]
+inputs:
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/ViewController.swift": [513539767, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/autoCamViewController.swift": [513544716, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/AppDelegate.swift": [513512351, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/touchIDViewController.swift": [513514595, 0]

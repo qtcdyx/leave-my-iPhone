@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "8b75e831814570c4e827acb3d6ee7f25"
+build_time: [513567719, 153988000]
+inputs:
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Alamofire.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Download.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Error.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Manager.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/MultipartFormData.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/NetworkReachabilityManager.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Notifications.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/ParameterEncoding.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Request.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Response.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/ResponseSerialization.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Result.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/ServerTrustPolicy.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Stream.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Timeline.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Upload.swift": !dirty [513567042, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/Pods/Alamofire/Source/Validation.swift": !dirty [513567042, 0]

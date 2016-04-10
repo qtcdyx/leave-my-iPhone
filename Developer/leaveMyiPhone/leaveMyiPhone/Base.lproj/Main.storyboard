@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kf3-Dp-AK3">
+            <objects>
+                <viewController id="tQb-QE-fA6" customClass="ViewController" customModule="leaveMyiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gh0-x9-VaV"/>
+                        <viewControllerLayoutGuide type="bottom" id="fj9-2z-db2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Chh-wc-rGf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="caef76094b36acaf0afdeca27fd98d1001e99c4a" translatesAutoresizingMaskIntoConstraints="NO" id="ER8-PZ-8HI">
+                                <rect key="frame" x="0.0" y="0.0" width="415" height="735"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wb-jT-sJH">
+                                <rect key="frame" x="354" y="28" width="152" height="119"/>
+                                <state key="normal" title="STOP" backgroundImage="stop.png"/>
+                                <connections>
+                                    <action selector="STOP:" destination="tQb-QE-fA6" eventType="touchUpInside" id="VUL-qS-LdX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ER8-PZ-8HI" firstAttribute="width" secondItem="Chh-wc-rGf" secondAttribute="width" id="jbs-QJ-mFX"/>
+                            <constraint firstItem="ER8-PZ-8HI" firstAttribute="height" secondItem="Chh-wc-rGf" secondAttribute="height" id="yzR-fp-97f"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Mc-vU-8iS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="-1434"/>
+        </scene>
+        <!--Auto Cam View Controller-->
+        <scene sceneID="Gyy-Xe-L6m">
+            <objects>
+                <viewController id="745-TE-a6v" customClass="autoCamViewController" customModule="leaveMyiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kep-Cn-eGf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lbc-UZ-bKO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f5V-M1-dDV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IEEE" translatesAutoresizingMaskIntoConstraints="NO" id="3ia-2L-8v3">
+                                <rect key="frame" x="8" y="6" width="583" height="586"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="592" id="dKT-KZ-k8R"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXI-V8-ydb">
+                                <rect key="frame" x="126" y="521" width="30" height="30"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1iq-ec-YNS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3ia-2L-8v3" secondAttribute="trailing" constant="-11" id="GIO-YD-aft"/>
+                            <constraint firstItem="3ia-2L-8v3" firstAttribute="top" secondItem="Kep-Cn-eGf" secondAttribute="bottom" constant="-14" id="ItV-IH-nEH"/>
+                            <constraint firstItem="Lbc-UZ-bKO" firstAttribute="top" secondItem="3ia-2L-8v3" secondAttribute="bottom" constant="8" id="XzO-tr-B6K"/>
+                            <constraint firstItem="3ia-2L-8v3" firstAttribute="leading" secondItem="f5V-M1-dDV" secondAttribute="leadingMargin" constant="-12" id="hRN-tQ-ka0"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbS-LS-lTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="-713"/>
+        </scene>
+        <!--Main Controller View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainControllerViewController" customModule="leaveMyiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="主背景" translatesAutoresizingMaskIntoConstraints="NO" id="73o-E1-B7E">
+                                <rect key="frame" x="0.0" y="0.0" width="415" height="735"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNQ-AJ-Ui2">
+                                <rect key="frame" x="60" y="258" width="150" height="60"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="浏览查岗记录" backgroundImage="按钮5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="adK-Y2-Ayt" kind="modal" id="B6H-Hm-BOY"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RmK-Xt-6oa">
+                                <rect key="frame" x="276" y="92" width="51" height="31"/>
+                                <connections>
+                                    <segue destination="tQb-QE-fA6" kind="modal" id="vD2-ME-bKa"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slu-nu-u2g">
+                                <rect key="frame" x="60" y="78" width="150" height="60"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="开启防盗功能" backgroundImage="按钮5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuX-RH-zku">
+                                <rect key="frame" x="60" y="168" width="150" height="60"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="开启防查岗功能" backgroundImage="按钮5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Esu-ZJ-jrY">
+                                <rect key="frame" x="276" y="182" width="51" height="31"/>
+                                <connections>
+                                    <segue destination="745-TE-a6v" kind="modal" id="37j-kz-ZB1"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zuX-RH-zku" firstAttribute="top" secondItem="slu-nu-u2g" secondAttribute="top" constant="90" id="3bm-UV-ntz"/>
+                            <constraint firstItem="RmK-Xt-6oa" firstAttribute="centerY" secondItem="slu-nu-u2g" secondAttribute="centerY" id="cts-mh-KKY"/>
+                            <constraint firstItem="73o-E1-B7E" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="hoT-6Q-xqV"/>
+                            <constraint firstItem="mNQ-AJ-Ui2" firstAttribute="top" secondItem="zuX-RH-zku" secondAttribute="top" constant="90" id="lpE-mW-mOg"/>
+                            <constraint firstItem="slu-nu-u2g" firstAttribute="leading" secondItem="73o-E1-B7E" secondAttribute="leading" constant="60" id="o4G-xg-lNS"/>
+                            <constraint firstItem="zuX-RH-zku" firstAttribute="centerX" secondItem="slu-nu-u2g" secondAttribute="centerX" id="ogd-JG-xRl"/>
+                            <constraint firstItem="slu-nu-u2g" firstAttribute="centerY" secondItem="73o-E1-B7E" secondAttribute="centerY" constant="-260" id="qUZ-zE-k5M"/>
+                            <constraint firstItem="Esu-ZJ-jrY" firstAttribute="centerY" secondItem="zuX-RH-zku" secondAttribute="centerY" id="seE-DG-16m"/>
+                            <constraint firstItem="mNQ-AJ-Ui2" firstAttribute="centerX" secondItem="zuX-RH-zku" secondAttribute="centerX" id="tBT-ec-8dv"/>
+                            <constraint firstItem="73o-E1-B7E" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="uh6-JE-qKx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="-729"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="Xu6-4E-8Ge">
+            <objects>
+                <viewController id="adK-Y2-Ayt" customClass="historyViewController" customModule="leaveMyiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mym-ei-92K"/>
+                        <viewControllerLayoutGuide type="bottom" id="rNa-3B-KN3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DQu-0k-68T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="界面2" translatesAutoresizingMaskIntoConstraints="NO" id="NyJ-Tb-bRj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXL-uu-DRS">
+                                <rect key="frame" x="290" y="28" width="30" height="30"/>
+                                <state key="normal" title="返回" backgroundImage="按钮5"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="YpZ-C1-un3"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOA-KP-6qU">
+                                <rect key="frame" x="0.0" y="72" width="600" height="528"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="a man called &quot;badman&quot; has viewed your iphone 2 hours ago!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PvP-8H-i2b">
+                                        <rect key="frame" x="272" y="26" width="145" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="badman" translatesAutoresizingMaskIntoConstraints="NO" id="nqY-p5-fSa">
+                                        <rect key="frame" x="45" y="14" width="108" height="152"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PvP-8H-i2b" firstAttribute="leading" secondItem="nqY-p5-fSa" secondAttribute="trailing" constant="92" id="7zj-ja-b3I"/>
+                                    <constraint firstItem="nqY-p5-fSa" firstAttribute="top" secondItem="OOA-KP-6qU" secondAttribute="top" constant="5" id="IOt-Bk-EAd"/>
+                                    <constraint firstItem="nqY-p5-fSa" firstAttribute="leading" secondItem="OOA-KP-6qU" secondAttribute="leading" constant="5" id="YVu-ru-juW"/>
+                                    <constraint firstAttribute="trailing" secondItem="PvP-8H-i2b" secondAttribute="trailing" constant="143" id="kij-pQ-Ygh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rNa-3B-KN3" firstAttribute="top" secondItem="OOA-KP-6qU" secondAttribute="bottom" id="1g8-CC-f5b"/>
+                            <constraint firstItem="NyJ-Tb-bRj" firstAttribute="width" secondItem="DQu-0k-68T" secondAttribute="width" id="8O8-xD-7bA"/>
+                            <constraint firstItem="QXL-uu-DRS" firstAttribute="leading" secondItem="DQu-0k-68T" secondAttribute="leadingMargin" constant="270" id="XTk-4j-sgg"/>
+                            <constraint firstItem="NyJ-Tb-bRj" firstAttribute="height" secondItem="DQu-0k-68T" secondAttribute="height" id="c6n-Ao-tkq"/>
+                            <constraint firstItem="OOA-KP-6qU" firstAttribute="width" secondItem="DQu-0k-68T" secondAttribute="width" id="cWk-2c-wz7"/>
+                            <constraint firstItem="OOA-KP-6qU" firstAttribute="top" secondItem="Mym-ei-92K" secondAttribute="bottom" constant="50" id="iTu-QE-31m"/>
+                            <constraint firstItem="NyJ-Tb-bRj" firstAttribute="top" secondItem="PvP-8H-i2b" secondAttribute="bottom" constant="-226" id="u0D-d2-9W9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IXg-PI-nfH"/>
+                    <connections>
+                        <outlet property="badman" destination="nqY-p5-fSa" id="XdT-Nh-Uu6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39e-Pf-vMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IEEE" width="1242" height="2208"/>
+        <image name="badman" width="86" height="86"/>
+        <image name="caef76094b36acaf0afdeca27fd98d1001e99c4a" width="450" height="800"/>
+        <image name="stop.png" width="102" height="102"/>
+        <image name="主背景" width="1080" height="1920"/>
+        <image name="按钮5" width="100" height="20"/>
+        <image name="界面2" width="1080" height="1920"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YpZ-C1-un3"/>
+    </inferredMetricsTieBreakers>
+</document>

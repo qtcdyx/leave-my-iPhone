@@ -1,0 +1,269 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "touchIDViewController"
+provides-nominal:
+- "C13leaveMyiPhone21touchIDViewController"
+provides-member:
+- ["C13leaveMyiPhone21touchIDViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+depends-top-level:
+- !private "NSLog"
+- !private "Void"
+- "UIViewController"
+- !private "LAContext"
+- !private "StringLiteralType"
+- "touchIDViewController"
+- !private "NSError"
+depends-member:
+- !private ["PSs9AnyObject", "LAContext"]
+- !private ["PSs9AnyObject", "NSLog"]
+- !private ["PSs9AnyObject", "canEvaluatePolicy"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "evaluatePolicy"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "LAContext"]
+- !private ["PSs11CVarArgType", "NSLog"]
+- !private ["PSs11CVarArgType", "canEvaluatePolicy"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "evaluatePolicy"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "LAContext"]
+- !private ["PSs23CustomStringConvertible", "NSLog"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "canEvaluatePolicy"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "evaluatePolicy"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "DeviceOwnerAuthenticationWithBiometrics"]
+- !private ["PSs9Equatable", "LAContext"]
+- !private ["PSs9Equatable", "NSLog"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "canEvaluatePolicy"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "evaluatePolicy"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "DeviceOwnerAuthenticationWithBiometrics"]
+- !private ["PSs8Hashable", "LAContext"]
+- !private ["PSs8Hashable", "NSLog"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "canEvaluatePolicy"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "evaluatePolicy"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["CSo9LAContext", "canEvaluatePolicy"]
+- !private ["CSo9LAContext", "evaluatePolicy"]
+- !private ["CSo9LAContext", "init"]
+- !private ["OSC8LAPolicy", "DeviceOwnerAuthenticationWithBiometrics"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "LAContext"]
+- !private ["PSo8NSCoding", "NSLog"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "LAContext"]
+- !private ["PSo26NSExtensionRequestHandling", "NSLog"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "LAContext"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSLog"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "canEvaluatePolicy"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "evaluatePolicy"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "LAContext"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- !private ["PSo16NSObjectProtocol", "canEvaluatePolicy"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "evaluatePolicy"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16RawRepresentable", "DeviceOwnerAuthenticationWithBiometrics"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo21UIAppearanceContainer", "LAContext"]
+- !private ["PSo21UIAppearanceContainer", "NSLog"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "LAContext"]
+- !private ["PSo18UIContentContainer", "NSLog"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "LAContext"]
+- !private ["PSo18UIFocusEnvironment", "NSLog"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "LAContext"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NSLog"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "LAContext"]
+- !private ["PSo16UIStateRestoring", "NSLog"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "LAContext"]
+- !private ["PSo18UITraitEnvironment", "NSLog"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "LAContext"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NSLog"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["C13leaveMyiPhone21touchIDViewController", "LAContext"]
+- !private ["C13leaveMyiPhone21touchIDViewController", "NSError"]
+- !private ["C13leaveMyiPhone21touchIDViewController", "NSLog"]
+- !private ["C13leaveMyiPhone21touchIDViewController", "Void"]
+- ["C13leaveMyiPhone21touchIDViewController", "deinit"]
+- ["C13leaveMyiPhone21touchIDViewController", "didReceiveMemoryWarning"]
+- ["C13leaveMyiPhone21touchIDViewController", "init"]
+- ["C13leaveMyiPhone21touchIDViewController", "viewDidLoad"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "CSo9LAContext"
+- !private "OSC8LAPolicy"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- "C13leaveMyiPhone21touchIDViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/LocalAuthentication.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AssetsLibrary.swiftmodule"
+interface-hash: "1889fef767d05e93b7e157151958dcb6"

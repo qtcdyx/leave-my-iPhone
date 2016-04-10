@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "df29bf350af47b10b177a34319b953ae"
+build_time: [513565106, 266973000]
+inputs:
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Timeline.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Upload.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/ParameterEncoding.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Request.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/ResponseSerialization.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Error.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Manager.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Response.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Alamofire.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/MultipartFormData.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/ServerTrustPolicy.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/NetworkReachabilityManager.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Stream.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Download.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Validation.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Notifications.swift": !dirty [513508518, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/Alamofire-master/Source/Result.swift": !dirty [513508518, 0]

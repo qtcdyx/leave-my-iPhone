@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "353032f35faf10924a14a5aca903dbc3"
+build_time: [513559835, 636383000]
+inputs:
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/autoCamViewController.swift": [513553504, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/historyViewController.swift": [513554671, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/MainControllerViewController.swift": [513550794, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/ViewController.swift": [513553857, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/faceViewController.swift": !private [513559801, 0]
+  "/Users/yohoo/Developer/leaveMyiPhone/leaveMyiPhone/AppDelegate.swift": [513552191, 0]

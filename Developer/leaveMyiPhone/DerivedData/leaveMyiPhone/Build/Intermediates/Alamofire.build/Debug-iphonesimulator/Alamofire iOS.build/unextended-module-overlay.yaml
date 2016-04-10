@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/yohoo/Developer/leaveMyiPhone/DerivedData/leaveMyiPhone/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/yohoo/Developer/leaveMyiPhone/DerivedData/leaveMyiPhone/Build/Intermediates/Alamofire.build/Debug-iphonesimulator/Alamofire iOS.build/unextended-module.modulemap',
+    }]
+  }]
+}
